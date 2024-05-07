@@ -12,7 +12,7 @@ A `random` model is also included as a baseline. The expected accuracy of the ra
 
 ## Results
 
-|Model|Language|Accuracy|Count|
+|Model|Language|Avg. accuracy|Total runs|
 |---|---|---|---|
 |cohere|en|64.31|5|
 |cohere|fr|67.38|5|
