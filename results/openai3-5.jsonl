@@ -1,0 +1,10 @@
+{"id": "openai3-5", "total": 65, "correct": 40, "incorrect": 25, "accuracy": 61.53846153846154, "lang": "en", "set": 1, "timestamp": 1715105126}
+{"id": "openai3-5", "total": 65, "correct": 42, "incorrect": 23, "accuracy": 64.61538461538461, "lang": "en", "set": 1, "timestamp": 1715105158}
+{"id": "openai3-5", "total": 65, "correct": 39, "incorrect": 26, "accuracy": 60.0, "lang": "en", "set": 1, "timestamp": 1715105184}
+{"id": "openai3-5", "total": 65, "correct": 39, "incorrect": 26, "accuracy": 60.0, "lang": "en", "set": 1, "timestamp": 1715105211}
+{"id": "openai3-5", "total": 65, "correct": 41, "incorrect": 24, "accuracy": 63.07692307692307, "lang": "en", "set": 1, "timestamp": 1715105237}
+{"id": "openai3-5", "total": 65, "correct": 47, "incorrect": 18, "accuracy": 72.3076923076923, "lang": "fr", "set": 1, "timestamp": 1715105281}
+{"id": "openai3-5", "total": 65, "correct": 46, "incorrect": 19, "accuracy": 70.76923076923077, "lang": "fr", "set": 1, "timestamp": 1715105310}
+{"id": "openai3-5", "total": 65, "correct": 45, "incorrect": 20, "accuracy": 69.23076923076923, "lang": "fr", "set": 1, "timestamp": 1715105339}
+{"id": "openai3-5", "total": 65, "correct": 48, "incorrect": 17, "accuracy": 73.84615384615385, "lang": "fr", "set": 1, "timestamp": 1715105370}
+{"id": "openai3-5", "total": 65, "correct": 47, "incorrect": 18, "accuracy": 72.3076923076923, "lang": "fr", "set": 1, "timestamp": 1715105850}
