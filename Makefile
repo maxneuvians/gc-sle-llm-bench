@@ -1,10 +1,16 @@
-phony: debug cohere install openai3-5 openai4 random result
+phony: black debug cohere gemini install openai3-5 openai4 random result
+
+black:
+	@black src/*.py
 
 debug:
 	@python3 src/prompts.py
 
 cohere:
 	@python3 src/cohere_bench.py
+
+gemini:
+	@python3 src/gemini_bench.py
 
 install:
 	@pip3 install --user -r requirements.txt

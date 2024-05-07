@@ -1,2 +1,4 @@
+black==24.4.2 
 cohere==5.3.4
+google-generativeai==0.5.2 
 openai==1.26.0 

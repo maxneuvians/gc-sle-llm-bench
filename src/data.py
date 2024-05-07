@@ -16,7 +16,7 @@ def answer_questions(incorrect_func, missing_func, id, lang, set, sleep=0):
         print(f"Question {total} | Lang {lang} | Set {set} | Type: Incorrect")
         responses[str(question["id"])] = incorrect_func(question, lang)
         time.sleep(sleep)
-        
+
     for question in missing:
         total += 1
         print(f"Question {total} | Lang {lang} | Set {set} | Type: Missing")
@@ -32,16 +32,21 @@ def answer_questions(incorrect_func, missing_func, id, lang, set, sleep=0):
 
     # Append the results as a JSONL file in the results directory with the id
     f = open(f"results/{id}.jsonl", "a")
-    f.write(json.dumps({
-        "id": id,
-        "total": total,
-        "correct": correct_count,
-        "incorrect": incorrect_count,
-        "accuracy": (correct_count / total * 100),
-        "lang": lang,
-        "set": set,
-        "timestamp": int(time.time())
-        }) + "\n")
+    f.write(
+        json.dumps(
+            {
+                "id": id,
+                "total": total,
+                "correct": correct_count,
+                "incorrect": incorrect_count,
+                "accuracy": (correct_count / total * 100),
+                "lang": lang,
+                "set": set,
+                "timestamp": int(time.time()),
+            }
+        )
+        + "\n"
+    )
 
     return total, correct_count, incorrect_count
 
