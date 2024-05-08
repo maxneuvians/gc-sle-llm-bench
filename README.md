@@ -18,6 +18,8 @@ A `random` model is also included as a baseline. The expected accuracy of the ra
 |---|---|---|---|
 |cohere|en|64.31|5|
 |cohere|fr|67.38|5|
+|gemini-pro|en|72.31|5|
+|gemini-pro|fr|67.69|5|
 |openai3-5|en|61.85|5|
 |openai3-5|fr|71.69|5|
 |openai4|en|85.54|5|
