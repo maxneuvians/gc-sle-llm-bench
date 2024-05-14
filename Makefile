@@ -21,6 +21,9 @@ openai3-5:
 openai4:
 	@python3 src/openai4_bench.py
 
+openai4o:
+	@python3 src/openai4o_bench.py
+
 random:
 	@python3 src/random_bench.py
 

@@ -8,6 +8,7 @@ Currently, the following models are benchmarked:
 - Google Gemini Pro
 - OpenAI GPT-3.5-turbo
 - OpenAI GPT-4-turbo
+- OpenAI GTP-4o
 
 A `random` model is also included as a baseline. The expected accuracy of the random model is 25% as it has a 1 in 4 chance of selecting the correct answer.
 
@@ -15,7 +16,7 @@ A `random` model is also included as a baseline. The expected accuracy of the ra
 
 ### May 2024
 
-|Model|Language|Avg. accuracy|Total runs|
+|Model|Language|Accuracy|Count|
 |---|---|---|---|
 |cohere|en|64.31|5|
 |cohere|fr|67.38|5|
@@ -25,6 +26,8 @@ A `random` model is also included as a baseline. The expected accuracy of the ra
 |openai3-5|fr|71.69|5|
 |openai4|en|85.54|5|
 |openai4|fr|88.31|5|
+|openai4o|en|92.31|5|
+|openai4o|fr|92.00|5|
 |random|en|25.23|5|
 |random|fr|25.54|5|
 
