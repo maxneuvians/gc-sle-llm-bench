@@ -4,6 +4,7 @@ This repository contains the code to benchmark the performance of a language mod
 
 Currently, the following models are benchmarked:
 
+- Anthropic Claude-3-opus
 - Cohere (Command R+)
 - Google Gemini Pro
 - OpenAI GPT-3.5-turbo
