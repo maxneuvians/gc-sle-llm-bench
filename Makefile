@@ -1,4 +1,7 @@
-phony: black debug cohere gemini install openai3-5 openai4 random result
+phony: anthropic-opus black debug cohere gemini install openai3-5 openai4 random result
+
+anthropic-opus:
+	@python3 src/anthropic_opus_bench.py
 
 black:
 	@black src/*.py
@@ -11,6 +14,9 @@ cohere:
 
 gemini:
 	@python3 src/gemini_bench.py
+
+gemini1-5-flash:
+	@python3 src/gemini1-5-flash_bench.py
 
 install:
 	@pip3 install --user -r requirements.txt

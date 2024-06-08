@@ -14,10 +14,12 @@ A `random` model is also included as a baseline. The expected accuracy of the ra
 
 ## Results
 
-### May 2024
+### May/June 2024
 
 |Model|Language|Accuracy|Count|
 |---|---|---|---|
+|claude-3-opus|en|86.15|5|
+|claude-3-opus|fr|90.77|5|
 |cohere|en|64.31|5|
 |cohere|fr|67.38|5|
 |gemini-pro|en|72.31|5|
