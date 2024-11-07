@@ -30,6 +30,12 @@ openai4:
 openai4o:
 	@python3 src/openai4o_bench.py
 
+openai4o-mini:
+	@python3 src/openai4o-mini_bench.py
+
+openaio1-mini:
+	@python3 src/openaio1-mini_bench.py
+
 random:
 	@python3 src/random_bench.py
 
